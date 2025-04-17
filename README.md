@@ -29,7 +29,7 @@
 
 ## 🗓️ Planned Features
 
-- 🧬 Custom Personality Presets: Define your default behavior using `SYSTEM_PROMPT`.
+- 🧬 Custom Personality Presets: Define your default behavior using `SYSTEM_PROMPT`.  # works for me atm
 
 ---
 
