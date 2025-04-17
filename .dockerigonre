@@ -1,0 +1,14 @@
+node_modules
+dist
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+*.log
+.env
+.git
+.gitignore
+.vscode
+.idea
+.DS_Store
+src
+tsconfig*.json
