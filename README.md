@@ -157,6 +157,7 @@ This will pull and run the bot image, and your Discord bot should come online.
 
 ### 📌 Notes
 
+- If you dont want to use docker compose, the youtube video describes how to use it installed bare metal
 - You must **add the bot to a server where you have "Manage Server" permissions**
 - If you need to regenerate the token, you can do it from the **Bot** section
 - Store tokens and secrets securely (e.g. in `.env`, and make sure it’s in `.gitignore`)
