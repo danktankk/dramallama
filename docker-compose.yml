@@ -1,0 +1,17 @@
+networks:  # if wanted otherwise remove
+  proxy:
+    external: true
+
+services:
+  dramallama:
+    image: danktankk/dramallama:latest
+    container_name: dramallama
+    networks:  # if wanted otherwise remove
+      - proxy
+    restart: unless-stopped
+    environment:
+      - DISCORD_LLM_BOT_TOKEN=${BOT_TOKEN}
+      - DISCORD_LLM_BOT_CLIENT_ID=${CLIENT_ID}
+      - LLM_MODEL=${LLM_MODEL}
+      - LLM_API_URL=${LLM_API_URL}
+      #- SYSTEM_PROMPT=${SYSTEM_PROMPT}  # not  available yet
