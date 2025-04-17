@@ -14,4 +14,4 @@ services:
       - DISCORD_LLM_BOT_CLIENT_ID=${CLIENT_ID}
       - LLM_MODEL=${LLM_MODEL}
       - LLM_API_URL=${LLM_API_URL}
-      #- SYSTEM_PROMPT=${SYSTEM_PROMPT}  # not  available yet
+      - SYSTEM_PROMPT=${SYSTEM_PROMPT}
