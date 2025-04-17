@@ -1,5 +1,5 @@
 {
-  "name": "discordbot",
+  "name": "dramallama",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,13 +7,21 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
+  "description": "A discord bot using a local LLM that responds to you in your discord server",
   "dependencies": {
     "discord.js": "^14.17.2",
     "dotenv": "^16.4.7"
   },
   "devDependencies": {
     "typescript": "^5.7.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danktankk/dramallama.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danktankk/dramallama/issues"
+  },
+  "homepage": "https://github.com/danktankk/dramallama#readme"
 }
