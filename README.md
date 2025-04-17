@@ -7,11 +7,11 @@
 > [https://www.youtube.com/watch?v=aNzc8BsPIkQ&t=724s](https://www.youtube.com/watch?v=aNzc8BsPIkQ&t=724s)  
 > The second half of the video explains how to get the bot running on AWS as well.
 
-
 ---
 
 ## 🚀 Features
 
+- 🐋 Multi‑Arch Docker: Official container supports both **arm64** and **amd64** architectures.  
 - 🧵 Threads: Keeps Discord channels clean by auto-creating threads per prompt and then answers in the channel.
 - ⏱ Queueing: Handles multiple users using a queue with concurrency control.
 - ⚡ Fast Streaming: Works with `/api/generate` NDJSON stream responses.
