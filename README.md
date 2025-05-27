@@ -3,9 +3,9 @@
 # dramallama — A Self-Hosted LLM Discord Bot
 
 > **Note:** This project is based on [dhavdc/discord-bot-llm](https://github.com/dhavdc/discord-bot-llm).  
-> For a the walkthrough and demo, you watch his video here:  
+> For a walkthrough and demo, you can watch his video here:  
 > [https://www.youtube.com/watch?v=aNzc8BsPIkQ&t=724s](https://www.youtube.com/watch?v=aNzc8BsPIkQ&t=724s)  
-> The second half of the video explains how to get the bot running on AWS as well.
+> The second half of the video explains how to get the bot running on AWS.
 
 ---
 
